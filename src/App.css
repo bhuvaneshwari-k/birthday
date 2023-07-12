@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  background-color: aliceblue;
+  padding: 25px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  overflow: scroll;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  width:400px;
+}
+h1{
+  color: rgb(23, 23, 53);
+}
+a{
+  display: block;
+  background-color: rgb(48, 48, 95);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.image
+{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.empdata{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  margin: 10px;
+  width:330px;
+  border: 2px solid rgb(7, 7, 7);
+  border-radius: 7px;
+  padding: 10px;
+  background-color: rgb(165, 165, 165);
+  color: rgb(31, 31, 78);
+}
+.profile{
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.details{
+  flex-direction: column;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  align-items: center;
+  width: 350px;
+  text-align: left;
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+.age{
+  color: rgb(0, 0, 0);
+}
